@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    @apply bg-slate-100 dark:bg-slate-950/50;
+}
+
+::-webkit-scrollbar-thumb {
+    @apply bg-slate-300 dark:bg-slate-800 rounded-full border-2 border-transparent bg-clip-content transition-colors;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    @apply bg-indigo-50 dark:bg-indigo-600;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: theme('colors.slate.300') transparent;
+}
+
+.dark * {
+    scrollbar-color: theme('colors.slate.800') transparent;
+}
