@@ -85,10 +85,6 @@ REVERB\_PORT=8080
 REVERB\_SCHEME=http
 ```
 
----
-
-**Разработано с акцентом на детали и производительность. Author: Ruslan (donk1hong)**
-
 
 
 
